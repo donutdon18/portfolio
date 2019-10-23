@@ -1,0 +1,14 @@
+/*
+Donghwan Seo
+10/16/2019
+Trip Project
+*/
+html, body, div, h1, h2, h3, p, ul, li,
+article, aside, footer, header, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}

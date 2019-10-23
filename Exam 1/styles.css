@@ -1,0 +1,77 @@
+/*
+Don Seo
+Save the Bees
+Exam 1
+9.16.2019
+*/
+
+/* Structural Styles */
+html {
+	background-color: #FDD017;
+	color: #151B54;
+}
+body {
+	font-family: 'Sirin Stencil', cursive;
+	font-family: 'Montserrat', sans-serif;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+	
+	
+
+/* Header Rules */
+header {
+	background-color: #FFF380;
+	text-shadow: 2px 2px 5px grey;
+	border-bottom: 2px #151B54 double;
+	box-shadow: 0px 3px 5px;
+	text-align: center;
+}
+	
+
+
+/* Navigation Styles  */
+navigation {
+	text-align: right;
+	color: #151B54;
+	padding: 14px 25px;
+	text-decoration: none;
+	display:inline-block;
+}
+	
+a:link {
+	color: black;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: blue;
+}
+	
+
+
+/* Section Styles */
+.colony {
+	margin: auto;
+	width: 75%;
+	border: 3px solid #141B54;
+	padding: 10px;
+}
+	
+	
+
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	background-color: #FFF380;
+	padding-top: 1px;
+	text-shadow: 2px 2px 5px grey;
+	border-bottom: 2px #325F03 double;
+	box-shadow: 0px 3px 5px;
+}	
+	
+	
+	
