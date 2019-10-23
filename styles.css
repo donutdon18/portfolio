@@ -3,7 +3,23 @@
     Portfolio
     10/23/2019
 */
-
+/* Reset Style*/
+body {
+	line-height: 1.2em;
+ }
+ 
+ ul, ol {
+	list-style: none;
+ }
+ 
+ nav ul {
+	list-style: none;
+	list-style-image: none;
+ }
+ 
+ nav a {
+	text-decoration: none;
+ }
 
 /*Structural Styles */
 body {
