@@ -17,11 +17,13 @@
  		<header>
             <h1>Traveling Don</h1>
             <nav>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="packingTips.html" class="submenuTitle">Packing Tips</a></li>
-				<li><a href="aboutUs.html" class="submenuTitle">About Us</a></li>
-				<li><a href="book.html">Booking</a></li>
-                <li><a href="../index.html">Portfolio</a></li>
+                <ul>
+				    <li><a href="index.html">Home</a></li>
+				    <li><a href="packingTips.html" class="submenuTitle">Packing Tips</a></li>
+				    <li><a href="aboutUs.html" class="submenuTitle">About Us</a></li>
+				    <li><a href="book.html">Booking</a></li>
+                    <li><a href="../index.html">Portfolio</a></li>
+                </ul>
             </nav>
         </header>    
         <form action="results.html" method="GET">
@@ -29,15 +31,15 @@
                 <legend>Contact Information</legend>
                 <label for="name">Name: </label><input type="text" name="name"  id="name" placeholder="Full Name">
                 <label for="email">Email: </label><input type="text" name="email"  id="email" placeholder="Full Email">
-                <label for="tel">Phone Number: </label><input type="text" name="phone"  id="phone" placeholder="Full Number">
+                <label for="tel">Phone Number: </label><input type="text" name="phone"  id="tel" placeholder="Full Number">
             </fieldset>
             <br>
             <fieldset class="details">
                 <legend>Booking Details</legend>
                 <fieldset class="date">
                     <legend>Check in date</legend>
-                    <label for="date">Booking Date: </label><input type="date" name="date" min="2019">
-                    <label for="guests">Number of Guests: </label><select name="guests">
+                    <label for="date">Booking Date: </label><input type="date" id="date" name="date">
+                    <label for="guests">Number of Guests: </label><select name="guests" id="guests">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -47,7 +49,7 @@
                         <option>7</option>
                         <option>8</option>
                     </select>
-                    <label for="nights">Number of Nights: </label><select name="nights">
+                    <label for="nights">Number of Nights: </label><select id="nights" name="nights">
                         <option>1</option>                           
                         <option>2</option>
                         <option>3</option>
@@ -69,9 +71,9 @@
                 <br>
                 <fieldset class="location">
                     <legend>Locations</legend>
-                    <label for="Cancun">Cancun</label><input type="radio" name="location" checked>
-                    <label for="Tokyo">Tokyo</label><input type="radio" name="location">
-                    <label for="Rome">Rome</label><input type="radio" name="location">
+                    <label for="Cancun">Cancun</label><input id="Cancun" type="radio" name="location" checked>
+                    <label for="Tokyo">Tokyo</label><input id="Tokyo" type="radio" name="location">
+                    <label for="Rome">Rome</label><input id="Rome" type="radio" name="location">
                 </fieldset>
                 <br>
                 <label for="commBox">Please put down any accommodations needed for your trip.</label>
