@@ -3,6 +3,10 @@ Donghwan Seo
 10/16/2019
 Trip Project
 */
+#Results {
+	background-color: rgb(15, 27, 194);
+	border-block-color: white;
+}
 textarea{
 	margin-top:10px;
 	height:100px;
