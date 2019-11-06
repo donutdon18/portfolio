@@ -3,8 +3,11 @@ Donghwan Seo
 10/16/2019
 Trip Project
 */
-
-
+textarea{
+	margin-top:10px;
+	height:100px;
+	width: 95%;
+}
 html {
 	font-family: 'Roboto', sans-serif;
 }
@@ -26,19 +29,19 @@ h2{
 	border-style: dotted;
 }
 header {
-	width: 90%;
-	margin: auto;
-	height:4em;
+	margin: 100px;
+	height:3em;
 	display: flex;
-	
 }
 nav{
-	width:100%;
-	font-size:1em;
-	min-height: 5em;
+	font-size:2em;
+	min-height: 3em;
 }
 ul, li {
-	display:flex;
+	display:inline;
+	background-color:rgba(22, 22, 218, 0.623);
+	border: 1px solid black;
+	text-align: center;
 }
 nav a:link, nav a:visited{
 	font-size:1em;
@@ -49,10 +52,9 @@ nav a:link, nav a:visited{
 nav a:hover {
 	color: white;
 }
-
 #container {
 	padding: 10px;
-	margin: 10px;
+	margin: 100px;
 	align-items:center;
 	display:flex;
 	height: 100em;
@@ -74,7 +76,9 @@ nav a:hover {
 	border-style: solid;
 	font-size:20px;
 }
-
+fieldset{
+	background-color: rgb(124, 206, 233);
+}
 h2 {
 	padding:20px;
 	font-size: 3em;
