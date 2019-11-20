@@ -1,0 +1,121 @@
+/*
+Donghwan Seo
+Filename:styles.css
+Toto's Training Tutorials
+11.20.2019
+*/
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  background-color: rgb(63, 63, 63);
+  font-size: 16px;
+  width:200px;
+  margin:10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+  }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(43, 43, 43);}
+
+/* Structural Styles */
+html {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.801),grey);
+	color: Black;
+}
+body {
+	font-family: 'Calistoga', cursive;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+	
+	
+
+/* Header Rules */
+header {
+	background-color: rgba(71, 69, 202, 0.637);
+	text-shadow: 2px 2px 5px grey;
+	border-bottom: 2px black;
+	box-shadow: 0px 3px 5px;
+	text-align: center;
+}
+img {
+	width:40%;
+	image-rendering: crisp-edges;
+}
+	
+
+
+/* Navigation Styles  */
+
+	
+a:link {
+	color: black;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color:black;
+}
+	
+
+
+/* Section Styles */
+section {
+	margin: auto;
+	width: 75%;
+	border: 3px solid rgb(14, 28, 139);
+	padding: 10px;
+	background-color: rgb(99, 98, 98);
+}
+	
+	
+
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	background-color:rgba(71, 69, 202, 0.637);
+	padding-top: 1px;
+	text-shadow: 2px 2px 5px black;
+	border-bottom: 2px black double;
+	box-shadow: 0px 3px 5px;
+	text-decoration: none;
+}	
+/* Audio Styles */
+audio {
+	box-shadow: black;
+	display:block;
+	margin: 15px auto;
+	width: 90%;
+}
+	
+	
+	
